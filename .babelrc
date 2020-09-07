@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "@vue/cli-plugin-babel/preset",
+    "@vue/babel-preset-jsx"
+  ],
+  "plugins": [
+    [
+      "wildcard",
+      {
+        "exts": [
+          "js",
+          "es6",
+          "es",
+          "jsx",
+          "javascript",
+          "vue"
+        ]
+      }
+    ]
+  ]
+}

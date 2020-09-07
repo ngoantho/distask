@@ -1,0 +1,48 @@
+/* Include this stylesheet after Milligram or merge it with your main.css */
+
+:root {
+  --global-bg: #2c2f34;
+  --global-text: #f2f2f2;
+  --bg-secondary: #141518;
+  --bg-tertiary: #34373c;
+  --bg-accent: #1b1c1d;
+}
+
+body {
+  background: var(--global-bg);
+  color: var(--global-text);
+}
+
+.navigation .title,
+.navigation-title {
+  color: var(--global-text);
+}
+
+.navigation {
+  background: var(--bg-tertiary);
+  border-bottom: 0.1rem solid var(--bg-accent);
+}
+
+.header {
+  background-color: var(--bg-secondary);
+}
+
+pre {
+  background: var(--bg-secondary);
+}
+
+.prettyprint {
+  color: var(--global-text);
+}
+
+.prettyprint.lang-md * {
+  color: var(--global-text) !important;
+}
+
+code {
+  background: var(--bg-secondary);
+}
+
+.prettyprint .atv {
+  color: rgba(73, 158, 223, 1);
+}
