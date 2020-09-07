@@ -1,24 +1,18 @@
 # distask
 
-## Project setup
-```
-yarn install
-```
+> Discord-esque task manager app
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Contributing
 
-### Compiles and minifies for production
-```
-yarn build
-```
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/ngoantho/distask/issues)
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Author
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+**Anthony Ngo**
+
+- [github/](https://github.com/ngoantho)
+
+## License
+
+Copyright © 2020 [Anthony Ngo](http://anthonyngo.me)
+Licensed under the MIT license.
